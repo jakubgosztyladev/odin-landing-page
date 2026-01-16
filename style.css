@@ -1,18 +1,28 @@
-/* body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
   margin: 0;
   min-height: 100vh;
 }
 ul {
+  display: flex;
   list-style-type: none;
   color: #e5e7eb;
+  padding: 0;
+  margin: 0;
+  gap: 12px;
 }
 a {
   text-decoration: none;
   color: #e5e7eb;
 }
 .header {
-  font-family: 'ROBOTO', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #1f2937;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  padding-top: 6px;
 }
 .logo {
   font-size: 24px;
@@ -28,8 +38,31 @@ a {
   color: #e5e7eb;
 }
 .image-placeholder {
-  width: 400px;
-  height: 200px;
-  text-align: center;
-  background-color: #e5e7eb;
-} */
+  display: flex;
+  width: 450px;
+  align-items: center;
+  justify-content: center;
+  color: #e5e7eb;
+  background-color: #6d747d;
+}
+.header1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header2 {
+  display: flex;
+  padding-top: 100px;
+  gap: 6px;
+}
+.header2-container {
+  flex: 1;
+}
+.header-button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 10px;
+}
