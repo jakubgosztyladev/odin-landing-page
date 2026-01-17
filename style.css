@@ -149,3 +149,11 @@ div.info {
   border-radius: 10px;
   padding: 10px 30px;
 }
+.footer {
+  color: #e5e7eb;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
