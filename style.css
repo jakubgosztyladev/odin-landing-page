@@ -120,3 +120,32 @@ div.info {
   font-weight: 700;
   text-align: right;
 }
+.content3 {
+  background-color: #3882f6;
+  margin: 100px 120px;
+  border-radius: 10px;
+}
+.call-to-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 200px;
+  height: 100px;
+  margin: 40px 60px;
+  color: #e5e7eb;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+.call-to-action-header {
+  color: #f9faf8;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.content3-button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
